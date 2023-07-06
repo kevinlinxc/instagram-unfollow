@@ -11,8 +11,8 @@ Instagram WILL message you to confirm the login (for me, it says the device is "
 Instagram gets me to log in all over again on my phone too.
 
 Second, this script uses [Instagrapi](https://github.com/adw0rd/instagrapi) and assumes that that library is not malicious. 
-It has a lot of stars and no user-submitted issues related to security or stolen accounts, so I think it's safe, but I'm
-not liable.
+It has a lot of stars and no user-submitted issues related to security or stolen accounts, so I think it's safe, but again,
+I'm not liable.
 
 ## How to use
 1. Install Python, e.g. [Python 3.11.4](https://www.python.org/downloads/release/python-3114/). Scroll down and
@@ -38,4 +38,5 @@ prompt you to curate the list of people to unfollow. Follow the instructions, an
 
 ## Known issues
 The script might not get all of your followers/following (e.g. when I was following 1700 people, the Instagrapi only
-found ~1500. I'm not sure why it might be rate-limiting or banned users or something, it's not a huge deal though.
+found ~1500. I'm not sure why; it might be rate-limiting or banned users or something, it's not a huge deal though.
+Just wait a day and run the script again and it should get the rest of the users.
