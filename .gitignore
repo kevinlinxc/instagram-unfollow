@@ -1,0 +1,7 @@
+venv/
+.python-version
+*.txt
+.env
+*.json
+.idea/
+.vscode/
